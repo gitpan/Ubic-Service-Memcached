@@ -1,6 +1,6 @@
 package Ubic::Service::Memcached;
 BEGIN {
-  $Ubic::Service::Memcached::VERSION = '1.00';
+  $Ubic::Service::Memcached::VERSION = '1.01';
 }
 
 use strict;
@@ -136,7 +136,7 @@ Ubic::Service::Memcached - memcached as ubic service
 
 =head1 VERSION
 
-version 1.00
+version 1.01
 
 =head1 SYNOPSIS
 
@@ -151,6 +151,8 @@ version 1.00
 =head1 DESCRIPTION
 
 This module allows you to run memcached using L<Ubic>.
+
+Its status method tries to store C<Ubic::Service::Memcached-testkey> key in memcached to check that service is running.
 
 =head1 METHODS
 

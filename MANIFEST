@@ -9,5 +9,7 @@ dist.ini
 lib/Ubic/Service/Memcached.pm
 t/release-pod-coverage.t
 t/release-pod-syntax.t
-t/service-verbose.t
 t/service.t
+tfiles/memcached-test.log
+tfiles/memcached-test.pid/lock
+tfiles/ubic.log

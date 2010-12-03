@@ -12,8 +12,7 @@ my %WriteMakefileArgs = (
   'ABSTRACT' => 'memcached as ubic service',
   'AUTHOR' => 'Vyacheslav Matyukhin <me@berekuk.ru>',
   'BUILD_REQUIRES' => {
-    'Test::More' => '0',
-    'Yandex::X' => '0'
+    'Test::More' => '0'
   },
   'CONFIGURE_REQUIRES' => {
     'ExtUtils::MakeMaker' => '6.31'
@@ -31,7 +30,7 @@ my %WriteMakefileArgs = (
     'Ubic::Service::Skeleton' => '0',
     'parent' => '0'
   },
-  'VERSION' => '1.00',
+  'VERSION' => '1.01',
   'test' => {
     'TESTS' => 't/*.t'
   }
