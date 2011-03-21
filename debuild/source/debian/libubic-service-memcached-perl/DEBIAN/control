@@ -1,0 +1,12 @@
+Package: libubic-service-memcached-perl
+Version: 1.02
+Architecture: all
+Maintainer: Vyacheslav Matjukhin (No comments) <mmcleric@yandex-team.ru>
+Installed-Size: 120
+Depends: libcache-memcached-perl, libparams-validate-perl, libparent-perl, memcached, perl (>= 5.6.0-16), ubic
+Conflicts: libubic-service-psgi-perl (<< 1.10)
+Section: perl
+Priority: optional
+Description: memcached as ubic service
+ The Ubic::Service::Memcached module is a helper for running memcached
+ with ubic.

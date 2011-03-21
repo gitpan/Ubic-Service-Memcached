@@ -1,0 +1,31 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.7
+Date: Mon, 21 Mar 2011 23:23:17 +0300
+Source: libubic-service-memcached-perl
+Binary: libubic-service-memcached-perl
+Architecture: source all
+Version: 1.02
+Distribution: unstable
+Urgency: low
+Maintainer: Vyacheslav Matjukhin (No comments) <mmcleric@yandex-team.ru>
+Changed-By: Vyacheslav Matjukhin (No comments) <mmcleric@yandex-team.ru>
+Description: 
+ libubic-service-memcached-perl - memcached as ubic service
+Changes: 
+ libubic-service-memcached-perl (1.02) unstable; urgency=low
+ .
+   * Initial debian package release.
+Files: 
+ da5776d4137de44aeaa8190f3c34e49e 707 perl optional libubic-service-memcached-perl_1.02.dsc
+ 1500ce252e1d5b62e09ef37b669a657a 12904 perl optional libubic-service-memcached-perl_1.02.tar.gz
+ 443991c4d3bcd3a787bdc2299557c144 6958 perl optional libubic-service-memcached-perl_1.02_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFNh7biFnEu5LVp4C0RApbYAKCKEZaYB/m1t74Fj5cAGdtYk+/IcgCfUiWx
+9cbrmZDr+YsT9PdqbjA6b8s=
+=4Tia
+-----END PGP SIGNATURE-----

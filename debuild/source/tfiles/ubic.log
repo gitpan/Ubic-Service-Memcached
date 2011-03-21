@@ -1,0 +1,7 @@
+[Mon Mar 21 23:36:45 2011]	21780	guardian name: ubic-guardian /usr/bin/memcached -p 1358 -m 10 -vv
+[Mon Mar 21 23:36:45 2011]	21780	getting lock...
+[Mon Mar 21 23:36:45 2011]	21780	got lock
+[Mon Mar 21 23:36:45 2011]	21780	guardian pid: 21780
+[Mon Mar 21 23:36:45 2011]	21780	daemon pid: 21781
+[Mon Mar 21 23:36:45 2011]	21780	sending SIGTERM to 21781
+[Mon Mar 21 23:36:45 2011]	21780	daemon exited by sigterm
