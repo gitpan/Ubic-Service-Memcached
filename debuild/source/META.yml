@@ -15,8 +15,9 @@ meta-spec:
 name: Ubic-Service-Memcached
 requires:
   Cache::Memcached: 0
+  Carp: 0
+  Morpheus: 0
   Params::Validate: 0
-  Time::HiRes: 0
   Ubic::Daemon: 0
   Ubic::Result: 0
   Ubic::Service::Skeleton: 0
@@ -25,4 +26,4 @@ resources:
   bugtracker: http://github.com/berekuk/Ubic-Service-Memcached/issues
   homepage: http://github.com/berekuk/Ubic-Service-Memcached/wiki
   repository: git://github.com/berekuk/Ubic-Service-Memcached.git
-version: 1.02
+version: 2.00

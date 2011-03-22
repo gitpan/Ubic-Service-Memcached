@@ -1,7 +1,0 @@
-[Fri Dec  3 22:28:06 2010]	20181	guardian name: ubic-guardian /usr/bin/memcached -p 1358 -m 10 -vv
-[Fri Dec  3 22:28:06 2010]	20181	getting lock...
-[Fri Dec  3 22:28:06 2010]	20181	got lock
-[Fri Dec  3 22:28:06 2010]	20181	guardian pid: 20181
-[Fri Dec  3 22:28:06 2010]	20181	daemon pid: 20182
-[Fri Dec  3 22:28:06 2010]	20181	sending SIGTERM to 20182
-[Fri Dec  3 22:28:06 2010]	20181	daemon exited by sigterm

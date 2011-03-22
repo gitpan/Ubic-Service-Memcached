@@ -129,12 +129,12 @@
 .\" ========================================================================
 .\"
 .IX Title "Ubic::Service::Memcached 3"
-.TH Ubic::Service::Memcached 3 "2011-03-21" "perl v5.8.8" "User Contributed Perl Documentation"
+.TH Ubic::Service::Memcached 3 "2011-03-22" "perl v5.8.8" "User Contributed Perl Documentation"
 .SH "NAME"
 Ubic::Service::Memcached \- memcached as ubic service
 .SH "VERSION"
 .IX Header "VERSION"
-version 1.02
+version 2.00
 .SH "SYNOPSIS"
 .IX Header "SYNOPSIS"
 .Vb 1
@@ -167,6 +167,8 @@ Integer port number.
 .IP "\fIpidfile\fR" 4
 .IX Item "pidfile"
 Full path to pidfile. Pidfile will be managed by \f(CW\*(C`Ubic::Daemon\*(C'\fR.
+.Sp
+You can skip this parameter if you have \f(CW\*(C`/module/Ubic/Service/Memcached/pid_dir\*(C'\fR morpheus option configured. In this case pidfile will be located in that directory and have name \f(CW\*(C`$port.pid\*(C'\fR.
 .IP "\fImaxsize\fR" 4
 .IX Item "maxsize"
 Max memcached memory size in megabytes. Default is 640MB.
@@ -174,7 +176,7 @@ Max memcached memory size in megabytes. Default is 640MB.
 .IX Item "verbose"
 Enable memcached logging.
 .Sp
-\&\f(CW\*(C`verbose=1\*(C'\fR> turns on basic error and warning logs (i.e. it sets \f(CW\*(C`\-v\*(C'\fR switch),
+\&\f(CW\*(C`verbose=1\*(C'\fR turns on basic error and warning logs (i.e. it sets \f(CW\*(C`\-v\*(C'\fR switch),
 .Sp
 \&\f(CW\*(C`verbose=2\*(C'\fR turns on more detailed logging (i.e. it sets \f(CW\*(C`\-vv\*(C'\fR switch).
 .IP "\fIlogfile\fR" 4
@@ -185,7 +187,10 @@ If specified, memcached will be configured to write logs to given file.
 Optional log with ubic-specific messages.
 .IP "\fImax_connections\fR" 4
 .IX Item "max_connections"
-Number of max simultaneous connections (<\-c> memcached option).
+Number of max simultaneous connections (\f(CW\*(C`\-c\*(C'\fR memcached option).
+.IP "\fIother_argv\fR" 4
+.IX Item "other_argv"
+Any argv parameters to memcached binary which are not covered by this module's \s-1API\s0.
 .IP "\fIuser\fR" 4
 .IX Item "user"
 .PD 0

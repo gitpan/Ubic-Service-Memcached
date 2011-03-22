@@ -1,7 +1,7 @@
-d50f15781ddb6b699a8facbfed944054  usr/share/doc/libubic-service-memcached-perl/changelog.gz
-518004b1e0974a0e93a8c31065c748b3  usr/share/doc/libubic-service-memcached-perl/README
+2fd154901a81bf4c508f4fd8e5ca8405  usr/share/doc/libubic-service-memcached-perl/changelog.gz
+3884818ea7bdc686c03fafb34ad1a039  usr/share/doc/libubic-service-memcached-perl/README
 acb9dcf00b69b3c8256832c5f99346b8  usr/share/doc/libubic-service-memcached-perl/copyright
-a5ec2e67638ef376954f6e8c1de7a87d  usr/share/doc/libubic-service-memcached-perl/changelog.Debian.gz
+9547edf1a28f3ebcb5619171c686f254  usr/share/doc/libubic-service-memcached-perl/changelog.Debian.gz
 923e5397759326211de5967921353798  usr/share/perl5/auto/Ubic/Service/Memcached/.packlist
-ef1cfbec23ea221b1f3102120c49ef73  usr/share/perl5/Ubic/Service/Memcached.pm
-c363380b34202a7552f8de81e491db71  usr/share/man/man3/Ubic::Service::Memcached.3pm.gz
+0012cff79cc9a184e1feace49c73794b  usr/share/perl5/Ubic/Service/Memcached.pm
+2c5a3c72b26dac87dcc2e053118ca2cd  usr/share/man/man3/Ubic::Service::Memcached.3pm.gz

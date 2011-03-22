@@ -5,7 +5,7 @@ dpkg-buildpackage: set CXXFLAGS to default value: -g -O2
 dpkg-buildpackage: set FFLAGS to default value: -g -O2
 dpkg-buildpackage: set LDFLAGS to default value: -Wl,-Bsymbolic-functions
 dpkg-buildpackage: source package libubic-service-memcached-perl
-dpkg-buildpackage: source version 1.02
+dpkg-buildpackage: source version 2.00
 dpkg-buildpackage: source changed by Vyacheslav Matjukhin (No comments) <mmcleric@yandex-team.ru>
 dpkg-buildpackage: host architecture amd64
  fakeroot debian/rules clean
@@ -14,9 +14,9 @@ dh_testroot
 dh_clean debian/build-stamp debian/install-stamp
 [ ! -f Makefile ] || /usr/bin/make realclean
  dpkg-source -I.git -I.svn -b source
-dpkg-source: warning: source directory './source' is not <sourcepackage>-<upstreamversion> 'libubic-service-memcached-perl-1.02'
-dpkg-source: building libubic-service-memcached-perl in libubic-service-memcached-perl_1.02.tar.gz
-dpkg-source: building libubic-service-memcached-perl in libubic-service-memcached-perl_1.02.dsc
+dpkg-source: warning: source directory './source' is not <sourcepackage>-<upstreamversion> 'libubic-service-memcached-perl-2.00'
+dpkg-source: building libubic-service-memcached-perl in libubic-service-memcached-perl_2.00.tar.gz
+dpkg-source: building libubic-service-memcached-perl in libubic-service-memcached-perl_2.00.dsc
  debian/rules build
 dh_testdir
 /usr/bin/perl Makefile.PL INSTALLDIRS=vendor \
@@ -39,7 +39,7 @@ t/release-pod-syntax......skipped
         all skipped: these tests are for release candidate testing
 t/service.................ok
 All tests successful, 2 tests skipped.
-Files=3, Tests=7,  0 wallclock secs ( 0.08 cusr +  0.04 csys =  0.12 CPU)
+Files=3, Tests=7,  0 wallclock secs ( 0.25 cusr +  0.10 csys =  0.35 CPU)
 make[1]: Leaving directory `/home/mmcleric/git/opensource/ubic-memcached/debuild/source'
 touch debian/build-stamp
  fakeroot debian/rules binary
@@ -70,8 +70,8 @@ dh_installdeb
 dh_gencontrol
 dh_md5sums
 dh_builddeb
-dpkg-deb: building package `libubic-service-memcached-perl' in `../libubic-service-memcached-perl_1.02_all.deb'.
- dpkg-genchanges  >../libubic-service-memcached-perl_1.02_amd64.changes
+dpkg-deb: building package `libubic-service-memcached-perl' in `../libubic-service-memcached-perl_2.00_all.deb'.
+ dpkg-genchanges  >../libubic-service-memcached-perl_2.00_amd64.changes
 dpkg-genchanges: including full source code in upload
 dpkg-buildpackage: full upload; Debian-native package (full source is included)
 Now running lintian...
@@ -79,8 +79,8 @@ W: libubic-service-memcached-perl source: maintainer-script-lacks-debhelper-toke
 E: libubic-service-memcached-perl source: perl-critic-violation [TestingAndDebugging::RequireUseStrict] unpacked/lib/Ubic/Service/Memcached.pm: Code before strictures are enabled at line 2, column 1.  See page 429 of PBP.  (Severity: 4)
 Finished running lintian.
 Now signing changes and any dsc files...
- signfile libubic-service-memcached-perl_1.02.dsc Vyacheslav Matjukhin (No comments) <mmcleric@yandex-team.ru>
+ signfile libubic-service-memcached-perl_2.00.dsc Vyacheslav Matjukhin (No comments) <mmcleric@yandex-team.ru>
 
- signfile libubic-service-memcached-perl_1.02_amd64.changes Vyacheslav Matjukhin (No comments) <mmcleric@yandex-team.ru>
+ signfile libubic-service-memcached-perl_2.00_amd64.changes Vyacheslav Matjukhin (No comments) <mmcleric@yandex-team.ru>
 
 Successfully signed dsc and changes files

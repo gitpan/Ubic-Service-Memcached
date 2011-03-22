@@ -1,10 +1,10 @@
 Package: libubic-service-memcached-perl
-Version: 1.02
+Version: 2.00
 Architecture: all
 Maintainer: Vyacheslav Matjukhin (No comments) <mmcleric@yandex-team.ru>
 Installed-Size: 120
 Depends: libcache-memcached-perl, libparams-validate-perl, libparent-perl, memcached, perl (>= 5.6.0-16), ubic
-Conflicts: libubic-service-psgi-perl (<< 1.10)
+Conflicts: yandex-ppb-memcached (<< 2.0.0)
 Section: perl
 Priority: optional
 Description: memcached as ubic service

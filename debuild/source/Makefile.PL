@@ -23,14 +23,15 @@ my %WriteMakefileArgs = (
   'NAME' => 'Ubic::Service::Memcached',
   'PREREQ_PM' => {
     'Cache::Memcached' => '0',
+    'Carp' => '0',
+    'Morpheus' => '0',
     'Params::Validate' => '0',
-    'Time::HiRes' => '0',
     'Ubic::Daemon' => '0',
     'Ubic::Result' => '0',
     'Ubic::Service::Skeleton' => '0',
     'parent' => '0'
   },
-  'VERSION' => '1.02',
+  'VERSION' => '2.00',
   'test' => {
     'TESTS' => 't/*.t'
   }

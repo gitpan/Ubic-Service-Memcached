@@ -1,0 +1,35 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.7
+Date: Tue, 22 Mar 2011 20:03:11 +0300
+Source: libubic-service-memcached-perl
+Binary: libubic-service-memcached-perl
+Architecture: source all
+Version: 2.00
+Distribution: unstable
+Urgency: low
+Maintainer: Vyacheslav Matjukhin (No comments) <mmcleric@yandex-team.ru>
+Changed-By: Vyacheslav Matjukhin (No comments) <mmcleric@yandex-team.ru>
+Description: 
+ libubic-service-memcached-perl - memcached as ubic service
+Changes: 
+ libubic-service-memcached-perl (2.00) unstable; urgency=low
+ .
+   * 'other_argv' option implemented
+   * using timeout_options() feature of Ubic::Service::Skeleton,
+     manual trials loop removed
+   * 'pidfile' parameter is now optional and will be derived implicitly
+     (morpheus configuration is required to use this feature)
+Files: 
+ 1e5938bf72e64837db7a1c85aeb2b726 707 perl optional libubic-service-memcached-perl_2.00.dsc
+ b7b9cb2e03bb4b7efdc996dedaf288de 12347 perl optional libubic-service-memcached-perl_2.00.tar.gz
+ 27cb7a95196a9b642d6e5bcfa223e26a 7760 perl optional libubic-service-memcached-perl_2.00_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFNiOYkFnEu5LVp4C0RApM4AJ9tYDTVU6cTP2MOUrEyprGj0WnJxQCfdFep
+xJKmNm89+3OTiHnqoggUmdY=
+=PbK6
+-----END PGP SIGNATURE-----

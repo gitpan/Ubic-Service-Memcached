@@ -9,15 +9,13 @@ debian/changelog
 debian/compat
 debian/control
 debian/copyright
-debian/dirs
 debian/install
-debian/postinst
 debian/rules
-debuild/libubic-service-memcached-perl_1.02.dsc
-debuild/libubic-service-memcached-perl_1.02.tar.gz
-debuild/libubic-service-memcached-perl_1.02_all.deb
-debuild/libubic-service-memcached-perl_1.02_amd64.build
-debuild/libubic-service-memcached-perl_1.02_amd64.changes
+debuild/libubic-service-memcached-perl_2.00.dsc
+debuild/libubic-service-memcached-perl_2.00.tar.gz
+debuild/libubic-service-memcached-perl_2.00_all.deb
+debuild/libubic-service-memcached-perl_2.00_amd64.build
+debuild/libubic-service-memcached-perl_2.00_amd64.changes
 debuild/source/Changes
 debuild/source/LICENSE
 debuild/source/MANIFEST
@@ -66,6 +64,3 @@ lib/Ubic/Service/Memcached.pm
 t/release-pod-coverage.t
 t/release-pod-syntax.t
 t/service.t
-tfiles/memcached-test.log
-tfiles/memcached-test.pid/lock
-tfiles/ubic.log
