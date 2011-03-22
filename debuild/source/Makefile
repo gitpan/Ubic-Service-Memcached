@@ -20,7 +20,7 @@
 #     LICENSE => q[perl]
 #     NAME => q[Ubic::Service::Memcached]
 #     PREREQ_PM => { Ubic::Result=>q[0], parent=>q[0], Ubic::Daemon=>q[0], Carp=>q[0], Test::More=>q[0], Morpheus=>q[0], Params::Validate=>q[0], Cache::Memcached=>q[0], Ubic::Service::Skeleton=>q[0] }
-#     VERSION => q[2.00]
+#     VERSION => q[2.01]
 #     test => { TESTS=>q[t/*.t] }
 
 # --- MakeMaker post_initialize section:
@@ -60,11 +60,11 @@ DIRFILESEP = /
 DFSEP = $(DIRFILESEP)
 NAME = Ubic::Service::Memcached
 NAME_SYM = Ubic_Service_Memcached
-VERSION = 2.00
+VERSION = 2.01
 VERSION_MACRO = VERSION
-VERSION_SYM = 2_00
+VERSION_SYM = 2_01
 DEFINE_VERSION = -D$(VERSION_MACRO)=\"$(VERSION)\"
-XS_VERSION = 2.00
+XS_VERSION = 2.01
 XS_VERSION_MACRO = XS_VERSION
 XS_DEFINE_VERSION = -D$(XS_VERSION_MACRO)=\"$(XS_VERSION)\"
 INST_ARCHLIB = blib/arch
@@ -258,7 +258,7 @@ RCS_LABEL = rcs -Nv$(VERSION_SYM): -q
 DIST_CP = best
 DIST_DEFAULT = tardist
 DISTNAME = Ubic-Service-Memcached
-DISTVNAME = Ubic-Service-Memcached-2.00
+DISTVNAME = Ubic-Service-Memcached-2.01
 
 
 # --- MakeMaker macro section:
@@ -479,7 +479,7 @@ metafile : create_distdir
 	$(NOECHO) $(ECHO) Generating META.yml
 	$(NOECHO) $(ECHO) '--- #YAML:1.0' > META_new.yml
 	$(NOECHO) $(ECHO) 'name:               Ubic-Service-Memcached' >> META_new.yml
-	$(NOECHO) $(ECHO) 'version:            2.00' >> META_new.yml
+	$(NOECHO) $(ECHO) 'version:            2.01' >> META_new.yml
 	$(NOECHO) $(ECHO) 'abstract:           memcached as ubic service' >> META_new.yml
 	$(NOECHO) $(ECHO) 'author:' >> META_new.yml
 	$(NOECHO) $(ECHO) '    - Vyacheslav Matyukhin <me@berekuk.ru>' >> META_new.yml
@@ -799,7 +799,7 @@ testdb_static :: testdb_dynamic
 # --- MakeMaker ppd section:
 # Creates a PPD (Perl Package Description) for a binary distribution.
 ppd :
-	$(NOECHO) $(ECHO) '<SOFTPKG NAME="$(DISTNAME)" VERSION="2.00">' > $(DISTNAME).ppd
+	$(NOECHO) $(ECHO) '<SOFTPKG NAME="$(DISTNAME)" VERSION="2.01">' > $(DISTNAME).ppd
 	$(NOECHO) $(ECHO) '    <ABSTRACT>memcached as ubic service</ABSTRACT>' >> $(DISTNAME).ppd
 	$(NOECHO) $(ECHO) '    <AUTHOR>Vyacheslav Matyukhin &lt;me@berekuk.ru&gt;</AUTHOR>' >> $(DISTNAME).ppd
 	$(NOECHO) $(ECHO) '    <IMPLEMENTATION>' >> $(DISTNAME).ppd

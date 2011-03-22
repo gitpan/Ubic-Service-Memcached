@@ -26,4 +26,4 @@ resources:
   bugtracker: http://github.com/berekuk/Ubic-Service-Memcached/issues
   homepage: http://github.com/berekuk/Ubic-Service-Memcached/wiki
   repository: git://github.com/berekuk/Ubic-Service-Memcached.git
-version: 2.00
+version: 2.01

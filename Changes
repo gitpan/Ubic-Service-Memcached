@@ -1,5 +1,9 @@
 Revision history for Ubic-Service-Memcached
 
+2.01    Tue Mar 22, 2011
+        * hotfix - 'pidfile' is now really optional
+        * 'uninitialized' warning fixed
+
 2.00    Tue Mar 22, 2011
         * 'other_argv' option implemented
         * using timeout_options() feature of Ubic::Service::Skeleton,

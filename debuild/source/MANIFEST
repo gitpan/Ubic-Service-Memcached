@@ -9,9 +9,7 @@ debian/changelog
 debian/compat
 debian/control
 debian/copyright
-debian/dirs
 debian/install
-debian/postinst
 debian/rules
 dist.ini
 lib/Ubic/Service/Memcached.pm
