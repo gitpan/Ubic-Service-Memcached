@@ -1,7 +1,0 @@
-[Tue Mar 22 22:05:35 2011]	1892	guardian name: ubic-guardian /usr/bin/memcached -p 1358 -m 10 -vv
-[Tue Mar 22 22:05:35 2011]	1892	getting lock...
-[Tue Mar 22 22:05:35 2011]	1892	got lock
-[Tue Mar 22 22:05:35 2011]	1892	guardian pid: 1892
-[Tue Mar 22 22:05:35 2011]	1892	daemon pid: 1893
-[Tue Mar 22 22:05:35 2011]	1892	sending SIGTERM to 1893
-[Tue Mar 22 22:05:35 2011]	1892	daemon exited by sigterm

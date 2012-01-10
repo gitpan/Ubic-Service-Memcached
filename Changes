@@ -1,5 +1,8 @@
 Revision history for Ubic-Service-Memcached
 
+2.02    Tue Jan 10, 2012
+        * prune debian/ and debuild/ dirs from package
+
 2.01    Tue Mar 22, 2011
         * hotfix - 'pidfile' is now really optional
         * 'uninitialized' warning fixed
